@@ -29,7 +29,7 @@ h1 {
   color: var(--primary-color);
   font-family: var(--font-primary);
   line-heght: 80px;
-  margin: 20px;
+  font-weight: 400;
   font-size: 4rem;
 }
 
@@ -45,6 +45,7 @@ span {
 p {
   color: var(--font-color);
   margin-bottom: 20px;
+  line-height: 24px;
 }
 
 .btn {
@@ -56,13 +57,21 @@ p {
   font-weight: bold;
 }
 
-.btn-yellow {
+a:hover,
+.btn-primary {
   color: var(--color-btn);
   background-color: var(--primary-color);
   text-decoration: none;
   padding: 12px 32px;
 }
 
+.btn-primary:hover {
+  opacity: 0.5;
+}
+
 a {
   color: var(--font-color);
+  padding: 12px 32px;
+  font-size: 20px;
+  line-height: 24px;
 }
