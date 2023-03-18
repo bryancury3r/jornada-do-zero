@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ffc700;
   --secondary-color: #ffffff;
+  --color-btn: #000;
 
   --font-color: #777677;
 
@@ -12,4 +13,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url(../assets/image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 150px;
+  background-color: #000000;
+  font-family: var(--font-secondary);
+}
+
+h1 {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  margin: 20px;
+  font-size: 4rem;
+}
+
+h3 {
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--font-color);
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-yellow {
+  color: var(--color-btn);
+  background-color: var(--primary-color);
+  text-decoration: none;
+  padding: 12px 32px;
+}
+
+a {
+  color: var(--font-color);
 }
